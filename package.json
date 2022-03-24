@@ -1,21 +1,6 @@
 {
-  "name": "vite-march",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sonjavanteese/vite-march.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sonjavanteese/vite-march/issues"
-  },
-  "homepage": "https://github.com/sonjavanteese/vite-march#readme",
+  "name": "flowbite-windi",
+  "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
@@ -47,4 +32,3 @@
     "svelte-notifications": "^0.9.93"
   }
 }
-
