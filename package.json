@@ -1,0 +1,50 @@
+{
+  "name": "vite-march",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonjavanteese/vite-march.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonjavanteese/vite-march/issues"
+  },
+  "homepage": "https://github.com/sonjavanteese/vite-march#readme",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview",
+    "prepare": "svelte-kit sync",
+    "test": "playwright test",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.20.0",
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/adapter-static": "^1.0.0-next.29",
+    "@sveltejs/kit": "next",
+    "@windicss/plugin-animations": "^1.0.9",
+    "flowbite-svelte": "^0.10.9",
+    "svelte": "^3.44.0",
+    "svelte-check": "^2.2.6",
+    "svelte-preprocess": "^4.10.1",
+    "svelte-windicss-preprocess": "^4.2.6",
+    "svelte2tsx": "^0.5.6",
+    "tslib": "^2.3.1",
+    "typescript": "~4.6.2"
+  },
+  "type": "module",
+  "dependencies": {
+    "svelte-jsoneditor": "^0.3.25",
+    "svelte-notifications": "^0.9.93"
+  }
+}
+
